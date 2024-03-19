@@ -12429,12 +12429,12 @@ naav {
     color: #E8A941;
 }
 
-#btnko {
-    background-color: rgb(230,168,65);
+btn btn-primary {
+    background-color: #212529;
 }
 
 #seeMoreBtn {
-    background-color: rgb(230,168,65);
+    background-color: #212529;
 }
 
 #navcontainerpadd {
