@@ -17,6 +17,15 @@
 
 
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4VXM5W6ZPB"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4VXM5W6ZPB');
+</script>
 <body id="page-top">
 
 
@@ -97,17 +106,12 @@
             </div>
         </div>
         <div class="row" id="compactMenu">
-            <!-- Initial pizzas (total 6) -->
-            <!-- Add initial pizzas here -->
         </div>
         <!-- Expanded view (hidden by default) -->
         <div class="collapse" id="collapseMenu">
             <div class="row mt-4" id="expandedMenu">
-                <!-- Additional pizzas after expanding (total 6) -->
-                <!-- Add additional pizzas here -->
             </div>
         </div>
-        <!-- Expand button -->
         <div class="row mt-4">
             <div class="col text-center">
                 <button id="seeMoreBtn" class="btn btn-lg expand-btn text-light">Pozrieť viac</button>
@@ -120,12 +124,10 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script>
     $(document).ready(function () {
-        // Initial three pizzas
         const initialPizzas = [
             {name: "Pepperoni Perfektnosť America", price: "10,99 €", description: "", imgSrc: "assets/img/speciality/pizza1.png"},
             {name: "Pikantná Mediteránska Delícia", price: "9,99 €", description: "", imgSrc: "assets/img/speciality/pizza2.png"},
             {name: "Čistá Fantázia", price: "11,99 €", description: "", imgSrc: "assets/img/speciality/pizza3.png"}
-            // Add more initial pizzas if needed (total should be 6)
         ];
 
         // Render initial pizzas
@@ -146,7 +148,6 @@
             {name: "Taliansky Masaker", price: "8,99 €", description: "", imgSrc: "assets/img/speciality/pizza4.png"},
             {name: "Paprika Passion", price: "9,99 €", description: "", imgSrc: "assets/img/speciality/pizza5.png"},
             {name: "Šunkový Splendor", price: "7,99 €", description: "", imgSrc: "assets/img/speciality/pizza6.png"}
-            // Add more additional pizzas if needed (total should be 6)
         ];
 
         // Click event for 'See More Pizzas' button
@@ -284,7 +285,7 @@
 </section>
 
 
-
+<!-- Foodora section-->
 <section class="food-delivery py-5 rounded-5 mx-auto" id="rozvoz" style="width: 95%">
     <div class="container">
         <div class="row align-items-center">
@@ -336,7 +337,7 @@
 
 
 
-<!-- Galeria -->
+<!-- Galeria section -->
 <section id="gallery" class="mt-n5">
     <div class="container">
         <div class="row">
